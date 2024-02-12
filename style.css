@@ -25,7 +25,7 @@ body {
   height: 640px;
   border-radius: 12px;
   padding: 20px 30px 120px;
-  background: #303f9f;
+  background: #1d5f00;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
@@ -125,6 +125,47 @@ form input {
   background: #fff;
 }
 
+.container form .custom-input {
+  position: relative;
+}
+
+.container form .custom-input input {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container form .custom-input i {
+  position: absolute;
+  font-size: 28px;
+  right: 10px;
+  top: 10px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.container form .mdp input {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container form .mdp {
+  position: relative;
+}
+
+.container form .mdp i {
+  position: absolute;
+  font-size: 28px;
+  right: 10px;
+  top: 10px;
+  color: #333;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
 .login-section input {
   border: 1px solid #aaa;
 }
@@ -148,7 +189,7 @@ form .btn {
 }
 
 .login-section .btn {
-  background: #303f9f;
+  background: #1d5f00;
   color: #fff;
   border: none;
 }

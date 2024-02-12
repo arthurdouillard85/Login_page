@@ -13,7 +13,7 @@
   <body>
     <div class="container">
       <div class="signup-section">
-        <header>Signup</header>
+        <header>Sign up</header>
 
         <div class="social-buttons">
           <button><i class="bx bxl-google"></i> Use Google</button>
@@ -28,9 +28,18 @@
 
         <form>
           <input type="text" placeholder="Full name" required />
-          <input type="email" placeholder="Email adresse" required />
-          <input type="password" placeholder="Password" required />
-          <a href="#">Forget Passwod?</a>
+          <div class="custom-input">
+            <input
+              type="email"
+              placeholder="Email adresse"
+              autocomplete="off"
+            />
+            <i class="bx bx-at"></i>
+          </div>
+          <div class="mdp">
+            <input type="password" placeholder="Password" required />
+            <i class="bx bxs-show"></i>
+          </div>
           <button type="submit" class="btn">Sign up</button>
         </form>
       </div>
@@ -50,8 +59,14 @@
         </div>
 
         <form>
-          <input type="email" placeholder="Email adresse" required />
-          <input type="password" placeholder="Password" required />
+          <div class="custom-input">
+            <input type="email" placeholder="Email adresse" required />
+            <i class="bx bx-at"></i>
+          </div>
+          <div class="mdp">
+            <input type="password" placeholder="Password" required />
+            <i class="bx bxs-show"></i>
+          </div>
           <a href="#">Forget Passwod?</a>
           <button type="submit" class="btn">Login</button>
         </form>
